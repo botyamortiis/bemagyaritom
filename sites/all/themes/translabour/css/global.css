@@ -2,7 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 #messages {
-	display: none;
+	
 }
 
 body {
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #zone-content {
-	padding-top: 20px;
+	padding: 20px 0px;
 }
 
 #zone-footer-wrapper {
@@ -65,10 +65,35 @@ h1, h2, h3, h4, h5, h6 {
 	float: left;
 	margin: 0px;
 }
+#quicktabs-votes li a {
+	text-decoration: none;
+}
+
 #quicktabs-votes li.active {
 	background: #66D9EF;
 }
 #quicktabs-container-votes {
 	clear: both;
 	border-top: 4px solid #66D9EF;
+	padding-top: 10px;
+}
+
+.node-film .field-name-body {
+	background: #999;
+	padding: 20px;
+	color: #fff;
+}
+
+.node-film .field-name-body p {
+	margin: 0px;
+}
+.node-film .field-name-field-imdb-link {
+	background: #66D9EF;
+	padding: 10px;
+}
+
+.node-film .field-name-field-imdb-link a {
+	color: #000;
+	font-size: 14px;
+
 }
