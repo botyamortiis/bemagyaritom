@@ -2,7 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 #messages {
-	
+
 }
 
 body {
@@ -44,9 +44,53 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px 0px;
 }
 
-#zone-footer-wrapper {
+#zone-footer {
+	width: auto;
+}
+
+#region-footer-first {
 	background: #f5f5f5;
+	padding: 20px;
+	width: 100%;
+}
+
+#region-footer-second {
+	background: #66D9EF;
+	color: #fff;
+	width: 100%;
 	padding: 10px;
+}
+
+.region-footer-first-inner,
+.region-footer-second-inner {
+	margin: 0px auto;
+	width: 960px;
+}
+
+.region-footer-first-inner .grid-7 {
+	margin-left:0px;
+}
+
+.region-footer-first-inner .grid-5 {
+	margin-right: 0px;
+}
+
+#subscribe {
+	padding: 10px;
+	background: #66D9EF;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.region-footer-second-inner .grid-4 {
+	text-align: center;
+}
+.region-footer-second-inner .grid-4:first-child {
+	margin-left:0px;
+}
+
+.region-footer-second-inner .grid-4:last-child {
+	margin-right: 0px;
 }
 
 #zone-footer-wrapper p {
@@ -77,7 +121,19 @@ h1, h2, h3, h4, h5, h6 {
 	border-top: 4px solid #66D9EF;
 	padding-top: 10px;
 }
-
+#quicktabs-container-votes .views-row {
+	background: #f5f5f5;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+#quicktabs-container-votes .views-field-subject {
+	font-weight: bold;
+}
+#quicktabs-container-votes .views-field-value {
+	color: #000;
+	font-weight: bold;
+	
+}
 .node-film .field-name-body {
 	background: #999;
 	padding: 20px;
